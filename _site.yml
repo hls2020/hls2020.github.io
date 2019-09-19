@@ -1,0 +1,34 @@
+name: "Hispanic Linguistics Symposium"
+output_dir: "."
+navbar:
+  title: "HLS 2020"
+  type: default # inverse
+  left:
+    - text: "Home"
+      icon: fa-home
+      href: index.html
+    - text: "Speakers"
+      # icon: fa-podium
+      href: index.html#speakers
+    - text: "Schedule"
+      # icon: fa-calendar
+      href: index.html#schedule
+    - text: "Logistics"
+      # icon: fa-suitcase
+      href: index.html#logistics
+    - text: "Sponsors"
+      # icon: fa-project-diagram
+      href: index.html#sponsors
+  right:
+    - text: "Call for papers"
+      href: call.html
+    - text: "Registration"
+      href: registration.html
+output:
+  html_document:
+    theme: cosmo
+    includes:
+      in_header: head.html
+      after_body: footer.html
+    css: css/styles.css
+  
