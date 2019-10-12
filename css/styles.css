@@ -11,14 +11,14 @@ h2 {
 
 
 
-ul {
+ul.speakers-list {
   list-style: none;
   list-style-image: none;
   margin: 0;  
   padding: 0;
 }
 
-img {
+img.photo {
   border: 0;
   -ms-interpolation-mode: bicubic;
   vertical-align: middle;
@@ -38,7 +38,6 @@ img {
   position: relative;
   min-height: 120px;
   padding-left: 150px;
-  
   
   border-top: 1px dashed #fff; /* for editing */
 }
@@ -95,15 +94,10 @@ img {
   border-radius: 8px;
 }
 
-
 /* timevis styles */
 
 .vis-item {
-    border-color: #D82D89;
-    border-width: .1em;
-    background-color: #E29FC1;
-}
-
-.timevis {
   border-color: #D82D89;
+  border-width: .1em;
+  background-color: #E29FC1;
 }
