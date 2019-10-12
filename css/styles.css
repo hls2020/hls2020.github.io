@@ -24,7 +24,6 @@ img {
   vertical-align: middle;
 }
 
-
 /* =============================================================================
    SPEAKER
    ========================================================================== */
@@ -37,9 +36,9 @@ img {
 
 .speakers-item {
   position: relative;
-  min-height: 150px;
-  padding-left: 180px;
-  margin-bottom: 0px;
+  min-height: 120px;
+  padding-left: 150px;
+  
   
   border-top: 1px dashed #fff; /* for editing */
 }
@@ -84,10 +83,27 @@ img {
 }
 .speakers-item:hover .speaker-photo .photo {
   box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);
+  /* box-shadow: 0 0 0 6px rgba(38, 34, 93, 1);
+  box-shadow: 0 0 0 6px rgba(216, 45, 137, 1); 
+  box-shadow: 0 0 0 4px rgba(76, 170, 232, 1); 
+  */
 }
 .speech-time {
   color: #fff;
   background: blue;
   border-color: grey;
   border-radius: 8px;
+}
+
+
+/* timevis styles */
+
+.vis-item {
+    border-color: #D82D89;
+    border-width: .1em;
+    background-color: #E29FC1;
+}
+
+.timevis {
+  border-color: #D82D89;
 }

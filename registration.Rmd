@@ -2,14 +2,4 @@
 title: "Registration"
 ---
 
-Registration is now open!
-
-[Click here to register](../)
-
-Extremely late registration (Afte September 15th) –
-Faculty: $235
-Student: $160
-
-Late registration (after September 15th) –
-Faculty: $200
-Student: $125
+TBA

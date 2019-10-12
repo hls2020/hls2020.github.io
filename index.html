@@ -12,9 +12,9 @@
 
 
 
-<title>Hispanic Linguistics Symposium</title>
+<title>Hispanic Linguistics Symposium 2020</title>
 
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/jquery-1.12.4/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -24,17 +24,17 @@
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
-<script src="site_libs/d3-3.3.8/d3.min.js"></script>
-<script src="site_libs/dagre-0.4.0/dagre-d3.min.js"></script>
-<link href="site_libs/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
-<script src="site_libs/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
-<link href="site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
-<script src="site_libs/chromatography-0.1/chromatography.js"></script>
-<script src="site_libs/DiagrammeR-binding-1.0.1/DiagrammeR.js"></script>
 <link href="site_libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
 <script src="site_libs/vis-4.16.1/vis.min.js"></script>
 <link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet" />
 <script src="site_libs/timevis-binding-0.5/timevis.js"></script>
+<link href="site_libs/datatables-css-0.0.0/datatables-crosstalk.css" rel="stylesheet" />
+<script src="site_libs/datatables-binding-0.9/datatables.js"></script>
+<link href="site_libs/dt-core-1.10.19/css/jquery.dataTables.min.css" rel="stylesheet" />
+<link href="site_libs/dt-core-1.10.19/css/jquery.dataTables.extra.css" rel="stylesheet" />
+<script src="site_libs/dt-core-1.10.19/js/jquery.dataTables.min.js"></script>
+<link href="site_libs/crosstalk-1.0.0/css/crosstalk.css" rel="stylesheet" />
+<script src="site_libs/crosstalk-1.0.0/js/crosstalk.min.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <script type="text/javascript" src="js/smooth-scroll.js"></script>
@@ -325,17 +325,37 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Hispanic Linguistics Symposium</h1>
+<h1 class="title toc-ignore">Hispanic Linguistics Symposium 2020</h1>
 
 </div>
 
 
 <h3>
-October 15th-17th, 2020
+October 15th-17th<br />
+Wake Forest University<br />
+Winston Salem, NC
 </h3>
-<p>
-Wake Forest University, Winston Salem, NC
-</p>
+<div id="news" class="section level2">
+<h2>News</h2>
+<style>
+img.news, iframe.news {
+  width:50%;    
+  float:left;
+}
+.clear {
+  clear:both;
+}
+
+</style>
+<p><img class="news" src="images/wake_downtown.jpg" /></p>
+<a class="twitter-timeline news" data-width="50%" data-height="250" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/hls2020?ref_src=twsrc%5Etfw">Tweets by hls2020</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<div class="clear">
+
+</div>
+<a href="https://twitter.com/intent/tweet?button_hashtag=hls2020&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-url="http://hls2020.wfu.edu" data-related="hls2020" data-show-count="false">Tweet #hls2020</a>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 <div id="speakers" class="section level2">
 <h2>Speakers</h2>
 <ul class="speakers-list">
@@ -378,84 +398,51 @@ University of Colorado Boulder
 <h2>Program</h2>
 <div id="october-15" class="section level3">
 <h3>October 15</h3>
-<div id="htmlwidget-296e8d1c361ecd47df6d" style="width:100%;height:480px;" class="DiagrammeR html-widget"></div>
-<script type="application/json" data-for="htmlwidget-296e8d1c361ecd47df6d">{"x":{"diagram":"\n  gantt\n  dateFormat  YYYY-MM-DD\n  title My Gantt chart\n  \n  section First section\n  \n  Task 1            :done,    des1, 2014-01-06, 2014-01-08\n  Task 2            :active,  des2, 2014-01-09, 3d\n  Task 3            :         des3, after des2, 5d\n  Task 4            :         des4, after des3, 5d\n"},"evals":[],"jsHooks":[]}</script>
-<pre class="r"><code>library(timevis)
-
-data &lt;- data.frame(
-  id      = 1:4,
-  content = c(&quot;Item one&quot;  , &quot;Item two&quot;  ,&quot;Ranged item&quot;, &quot;Item four&quot;),
-  start   = c(&quot;2016-01-10&quot;, &quot;2016-01-11&quot;, &quot;2016-01-20&quot;, &quot;2016-02-14 15:00:00&quot;),
-  end     = c(NA          ,           NA, &quot;2016-02-04&quot;, NA)
-)
-
-data &lt;- 
-  tibble::tribble(
-  ~id, ~content, ~start, ~end,
-  1, &quot;Check in&quot;, &quot;2020-10-15 12:00:00&quot;, &quot;2020-10-15 12:30:00&quot;,
-  2, &quot;Registration&quot;, &quot;2020-10-15 12:00:00&quot;, &quot;2020-10-15 16:30:00&quot;
-)
-
-
-timevis(data)</code></pre>
-<div id="htmlwidget-777b02df06fb02ffd8b5" class="timevis html-widget" style="width:100%;height:480px;">
-<div class="btn-group zoom-menu">
-<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
-<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
-</div>
-</div>
-<script type="application/json" data-for="htmlwidget-777b02df06fb02ffd8b5">{"x":{"items":[{"id":"1","content":"Check in","start":"2020-10-15 12:00:00","end":"2020-10-15 12:30:00"},{"id":"2","content":"Registration","start":"2020-10-15 12:00:00","end":"2020-10-15 16:30:00"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+<p>TBA</p>
 </div>
 <div id="october-16" class="section level3">
 <h3>October 16</h3>
-<p>Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.</p>
+<p>TBA</p>
 </div>
 <div id="october-17" class="section level3">
 <h3>October 17</h3>
-<p>Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.</p>
+<p>TBA</p>
 </div>
 </div>
 <div id="logistics" class="section level2">
 <h2>Logistics</h2>
-<div id="venue" class="section level3">
-<h3>Venue</h3>
+<div id="getting-to-winston-salem" class="section level3">
+<h3>Getting to Winston-Salem</h3>
+<p>Winston-Salem is served primarily by the <strong>Piedmont Triad International Airport (GSO)</strong> in Greensboro, NC. Taxis and rental cars are available, and express shuttle service is operated from the PTI Airport to Winston-Salem. You can visit www.visitwinstonsalem.com or the WFU Visitors’ Center for more information on cabs, limousine services, shuttles and rates.</p>
+<p>Other regional airports include:</p>
+<p><strong>Charlotte Douglas International Airport (CLT)</strong> is about 90 minutes away. Information on transportation to Winston-Salem from CLT can be found at the airport website or you may want to check out a company called “Official Shuttle” with transfers to Winston-Salem.</p>
+<p><strong>Raleigh/Durham International Airport (RDU)</strong> is about a 2-hour drive away. Information on transportation to Winston-Salem from RDU can be found at the airport website.</p>
+<p>NOTE: <em>Smith Reynolds Airport (INT)</em> in Winston-Salem is available primarily to charter and private aircraft.</p>
+</div>
+<div id="conference-location" class="section level3">
+<h3>Conference location</h3>
+<p>The conference will be held downtown Winston-Salem, NC at the new <a href="https://wakedowntown.wfu.edu">Wake Downtown</a> campus. Please use the map below to prepare local transportion, accommodation, restaurant, and entertainment plans.</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7495655685784!2d-80.24215808490376!3d36.09959238009886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853ae5daadcf6b3%3A0x2309a7ebbb1e625f!2sWake+Downtown!5e0!3m2!1sen!2sus!4v1564887715132!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
+</iframe>
+</div>
+<div id="tours" class="section level3">
+<h3>360° tours</h3>
+<p>Exterior of Wake Downtown located in Winston-Salem’s Innovation Quarter.</p>
 <iframe src="https://theta360.com/s/nzuanEB1RNdKdHjea8bA2kmjg?view=embed&amp;width=970px&amp;height=375px" width="100%" height="400px">
 </iframe>
-</div>
-<div id="location" class="section level3">
-<h3>Location</h3>
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7495655685784!2d-80.24215808490376!3d36.09959238009886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853ae5daadcf6b3%3A0x2309a7ebbb1e625f!2sWake+Downtown!5e0!3m2!1sen!2sus!4v1564887715132!5m2!1sen!2sus" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+<p>Wake Downtown Auditorium</p>
+<iframe src="https://theta360.com/s/ksBeBbuD3lmJiNGik2hcAi1vk?view=embed&amp;width=970px&amp;height=375px" width="100%" height="400px">
 </iframe>
-</div>
-<div id="travel" class="section level3">
-<h3>Travel</h3>
-<p>Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.</p>
-</div>
-<div id="accomodations" class="section level3">
-<h3>Accomodations</h3>
-<p>Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.</p>
-<p><strong>Conference Hotels:</strong></p>
-<p>We are excited to offer three great options for lodging for participants in this year’s symposium at the Illini Union Hotel, Hampton Inn, and Hawthorn Suites.</p>
-<p>Group Block name for all three: HLS.</p>
-<p>The deadline to make reservations at the Illini Union Hotel and the Hampton Inn as a part of the group block is August 23, 2015. The deadline for the Hawthorn Suites is August 24, 2015. Reservations made after this date will be made only on a space available basis.</p>
-<p>The conference block discount is only available for the days of the conference (September 24th-27th).</p>
-<p>To make your housing reservation, please contact the hotel directly.</p>
-<p><strong>Other accomodation options:</strong></p>
-<p>Hampton Inn</p>
-<p>Address: 1200 W University Ave, Urbana, IL 61801</p>
-<p>Phone: (217) 337-1100</p>
-<p>Website: <a href="http://hamptoninn3.hilton.com/en/hotels/illinois/hampton-inn-champaign-urbana-CMIILHX/index.html" class="uri">http://hamptoninn3.hilton.com/en/hotels/illinois/hampton-inn-champaign-urbana-CMIILHX/index.html</a></p>
-<p>Room Reservation Information: 25 rooms blocked off. 10 Queens at $149. 15 Kings at $149 + 12% TAX.</p>
-<p>For your convenience, the hotel is located about a 10-minute walk from campus. Also, a free campus bus service is available for transportation between the Hapmton Inn and the Illini Union via the “22 Illini” route – between the “N” University &amp; Goodwin (SW Far Side) stop and the “E” Illini Union (Engineering Side) stop, which runs every ten minutes. More information regarding the bus schedule and route can be found at here.</p>
 </div>
 </div>
 <div id="sponsors" class="section level2">
 <h2>Sponsors</h2>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris dapibus sed quam sit amet tristique. Sed ultricies dolor sed neque iaculis ultricies. Sed euismod felis quis erat bibendum, at ullamcorper augue suscipit. Quisque ornare risus ante, vel pretium sapien laoreet vitae. Nunc ullamcorper imperdiet posuere. Sed at lorem rutrum, congue erat pharetra, eleifend libero. Integer ultrices nisi eu ligula egestas posuere. Duis varius, magna nec ornare pharetra, mauris risus bibendum magna, a finibus dui augue dictum ex. Sed leo ligula, commodo sed neque et, maximus blandit nisi. Cras dictum dictum vestibulum. Donec eget felis euismod, sodales eros ac, malesuada libero. Vivamus pellentesque, ipsum vel vestibulum aliquam, justo est aliquet libero, sit amet commodo dui neque eget tortor. Nam quis tempus tellus. Fusce sit amet dolor aliquet, porta quam viverra, finibus mi. Sed eget enim commodo, finibus erat eu, pharetra felis.</p>
-<p>Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.</p>
+<p><img src="images/neh.jpg"></p>
+<p><img src="images/wfu_hi.jpg"></p>
 </div>
 
-<p>Hispanic Linguistics Symposium, 2020</p>
+<hr>
+<h3>Hispanic Linguistics Symposium, 2020</h3>
 
 
 
