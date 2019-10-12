@@ -74,8 +74,8 @@ img {
 }
 
 .speaker-photo .photo {
-  border-radius: 50%;
-  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.07);
+  border-radius: 10%;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.07);
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -ms-transition: all 0.3s ease-out;
@@ -83,7 +83,7 @@ img {
   transition: all 0.3s ease-out;
 }
 .speakers-item:hover .speaker-photo .photo {
-  box-shadow: 0 0 0 8px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.3);
 }
 .speech-time {
   color: #fff;

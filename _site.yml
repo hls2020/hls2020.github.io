@@ -1,4 +1,4 @@
-name: "Hispanic Linguistics Symposium"
+name: "Hispanic Linguistics Symposium 2020"
 output_dir: "."
 navbar:
   title: "HLS 2020"
@@ -16,7 +16,7 @@ navbar:
     - text: "Logistics"
       # icon: fa-suitcase
       href: index.html#logistics
-    - text: "Sponsors"
+    - text: "Sponsors" 
       # icon: fa-project-diagram
       href: index.html#sponsors
   right:
@@ -29,6 +29,7 @@ output:
     theme: cosmo
     includes:
       in_header: head.html
+      before_body: image.html
       after_body: footer.html
     css: css/styles.css
   
