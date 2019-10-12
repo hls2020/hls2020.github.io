@@ -21,8 +21,10 @@ navbar:
       href: index.html#sponsors
   right:
     - text: "Call for papers"
+      icon: fa-paper-plane
       href: call.html
     - text: "Registration"
+      icon: fa-receipt
       href: registration.html
 output:
   html_document:

@@ -32,7 +32,7 @@ iframe.news {
 
 <img class="news" src="images/wake_downtown.jpg" />
 
-<a class="twitter-timeline news" data-width="50%" data-height="250" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/hls2020?ref_src=twsrc%5Etfw">Tweets by hls2020</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a class="twitter-timeline news" data-width="50%" data-height="260" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/hls2020?ref_src=twsrc%5Etfw">Tweets by hls2020</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 <div class="clear"></div>
 
