@@ -23,6 +23,18 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
+<script src="site_libs/htmlwidgets-1.5.1/htmlwidgets.js"></script>
+<script src="site_libs/d3-3.3.8/d3.min.js"></script>
+<script src="site_libs/dagre-0.4.0/dagre-d3.min.js"></script>
+<link href="site_libs/mermaid-0.3.0/dist/mermaid.css" rel="stylesheet" />
+<script src="site_libs/mermaid-0.3.0/dist/mermaid.slim.min.js"></script>
+<link href="site_libs/DiagrammeR-styles-0.2/styles.css" rel="stylesheet" />
+<script src="site_libs/chromatography-0.1/chromatography.js"></script>
+<script src="site_libs/DiagrammeR-binding-1.0.1/DiagrammeR.js"></script>
+<link href="site_libs/vis-4.16.1/vis.min.css" rel="stylesheet" />
+<script src="site_libs/vis-4.16.1/vis.min.js"></script>
+<link href="site_libs/timeline-0.4/timevis.css" rel="stylesheet" />
+<script src="site_libs/timevis-binding-0.5/timevis.js"></script>
 <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
 <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 <script type="text/javascript" src="js/smooth-scroll.js"></script>
@@ -286,7 +298,7 @@ $(document).ready(function () {
   <a href="index.html#speakers">Speakers</a>
 </li>
 <li>
-  <a href="index.html#schedule">Schedule</a>
+  <a href="index.html#program">Program</a>
 </li>
 <li>
   <a href="index.html#logistics">Logistics</a>
@@ -362,18 +374,44 @@ University of Colorado Boulder
 </li>
 </ul>
 </div>
-<div id="schedule" class="section level2 tabset tabset-fade tabset-pills">
-<h2>Schedule</h2>
-<div id="day-1" class="section level3">
-<h3>Day 1</h3>
+<div id="program" class="section level2 tabset tabset-fade tabset-pills">
+<h2>Program</h2>
+<div id="october-15" class="section level3">
+<h3>October 15</h3>
+<div id="htmlwidget-296e8d1c361ecd47df6d" style="width:100%;height:480px;" class="DiagrammeR html-widget"></div>
+<script type="application/json" data-for="htmlwidget-296e8d1c361ecd47df6d">{"x":{"diagram":"\n  gantt\n  dateFormat  YYYY-MM-DD\n  title My Gantt chart\n  \n  section First section\n  \n  Task 1            :done,    des1, 2014-01-06, 2014-01-08\n  Task 2            :active,  des2, 2014-01-09, 3d\n  Task 3            :         des3, after des2, 5d\n  Task 4            :         des4, after des3, 5d\n"},"evals":[],"jsHooks":[]}</script>
+<pre class="r"><code>library(timevis)
+
+data &lt;- data.frame(
+  id      = 1:4,
+  content = c(&quot;Item one&quot;  , &quot;Item two&quot;  ,&quot;Ranged item&quot;, &quot;Item four&quot;),
+  start   = c(&quot;2016-01-10&quot;, &quot;2016-01-11&quot;, &quot;2016-01-20&quot;, &quot;2016-02-14 15:00:00&quot;),
+  end     = c(NA          ,           NA, &quot;2016-02-04&quot;, NA)
+)
+
+data &lt;- 
+  tibble::tribble(
+  ~id, ~content, ~start, ~end,
+  1, &quot;Check in&quot;, &quot;2020-10-15 12:00:00&quot;, &quot;2020-10-15 12:30:00&quot;,
+  2, &quot;Registration&quot;, &quot;2020-10-15 12:00:00&quot;, &quot;2020-10-15 16:30:00&quot;
+)
+
+
+timevis(data)</code></pre>
+<div id="htmlwidget-777b02df06fb02ffd8b5" class="timevis html-widget" style="width:100%;height:480px;">
+<div class="btn-group zoom-menu">
+<button type="button" class="btn btn-default btn-lg zoom-in" title="Zoom in">+</button>
+<button type="button" class="btn btn-default btn-lg zoom-out" title="Zoom out">-</button>
+</div>
+</div>
+<script type="application/json" data-for="htmlwidget-777b02df06fb02ffd8b5">{"x":{"items":[{"id":"1","content":"Check in","start":"2020-10-15 12:00:00","end":"2020-10-15 12:30:00"},{"id":"2","content":"Registration","start":"2020-10-15 12:00:00","end":"2020-10-15 16:30:00"}],"groups":null,"showZoom":true,"zoomFactor":0.5,"fit":true,"options":[],"height":null,"api":[]},"evals":[],"jsHooks":[]}</script>
+</div>
+<div id="october-16" class="section level3">
+<h3>October 16</h3>
 <p>Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.</p>
 </div>
-<div id="day-2" class="section level3">
-<h3>Day 2</h3>
-<p>Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.</p>
-</div>
-<div id="day-3" class="section level3">
-<h3>Day 3</h3>
+<div id="october-17" class="section level3">
+<h3>October 17</h3>
 <p>Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.</p>
 </div>
 </div>

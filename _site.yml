@@ -10,9 +10,9 @@ navbar:
     - text: "Speakers"
       # icon: fa-podium
       href: index.html#speakers
-    - text: "Schedule"
+    - text: "Program"
       # icon: fa-calendar
-      href: index.html#schedule
+      href: index.html#program
     - text: "Logistics"
       # icon: fa-suitcase
       href: index.html#logistics

@@ -2,6 +2,11 @@
 title: "Hispanic Linguistics Symposium"
 ---
 
+```{r setup, include=FALSE}
+library(tidyverse)
+```
+
+
 <h3>October 15th-17th, 2020</h3>
 
 <p>Wake Forest University, Winston Salem, NC</p>
@@ -47,18 +52,58 @@ title: "Hispanic Linguistics Symposium"
 </ul>
 
 
-## Schedule {#schedule .tabset .tabset-fade .tabset-pills}
+## Program {#program .tabset .tabset-fade .tabset-pills}
 
 
-### Day 1
+### October 15
 
-Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.
+```{r gantt-one, echo=FALSE}
+library(DiagrammeR)
+# Task name         :status, label, start_date, end_date
 
-### Day 2 
+mermaid("
+  gantt
+  dateFormat  YYYY-MM-DD
+  title My Gantt chart
+  
+  section First section
+  
+  Task 1            :done,    des1, 2014-01-06, 2014-01-08
+  Task 2            :active,  des2, 2014-01-09, 3d
+  Task 3            :         des3, after des2, 5d
+  Task 4            :         des4, after des3, 5d
+")
+
+```
+
+
+```{r timevis-one}
+library(timevis)
+
+data <- data.frame(
+  id      = 1:4,
+  content = c("Item one"  , "Item two"  ,"Ranged item", "Item four"),
+  start   = c("2016-01-10", "2016-01-11", "2016-01-20", "2016-02-14 15:00:00"),
+  end     = c(NA          ,           NA, "2016-02-04", NA)
+)
+
+data <- 
+  tibble::tribble(
+  ~id, ~content, ~start, ~end,
+  1, "Check in", "2020-10-15 12:00:00", "2020-10-15 12:30:00",
+  2, "Registration", "2020-10-15 12:00:00", "2020-10-15 16:30:00"
+)
+
+
+timevis(data)
+```
+
+
+### October 16
 
 Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt. 
 
-### Day 3
+### October 17
 
 Aenean eu mi ut augue venenatis congue nec sed lectus. Etiam eleifend velit vitae ante fermentum semper. Morbi tincidunt dui sed mi sollicitudin bibendum. Fusce mattis porta viverra. Cras bibendum odio metus, vitae dictum lectus vestibulum et. Quisque et scelerisque nisi. Sed quis tempus odio. Donec finibus pharetra arcu eu scelerisque. Vivamus odio risus, imperdiet quis orci vitae, porttitor lobortis magna. Mauris auctor, mauris a congue aliquet, tortor lorem euismod nisl, et hendrerit erat ipsum sit amet mi. Mauris eu mi ac nulla lacinia porttitor. Phasellus ullamcorper magna ut diam sodales interdum. Integer maximus tortor rutrum lorem consectetur tincidunt.
 
