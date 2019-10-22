@@ -9,7 +9,7 @@ library(tidyverse)
 
 <h3>October 15th-17th  
 Wake Forest University  
-Winston Salem, NC</h3>
+Winston-Salem, NC</h3>
 
 ## News {#news}
 
@@ -39,7 +39,7 @@ iframe.news {
 
 <a href="https://twitter.com/intent/tweet?button_hashtag=hls2020&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-url="http://hls2020.wfu.edu" data-related="hls2020" data-show-count="false">Tweet #hls2020</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-## Speakers {#speakers}
+## Keynote speakers {#speakers}
 
 <ul class="speakers-list">
 
@@ -167,10 +167,44 @@ Wake Downtown Auditorium
 knitr::include_url(url = "https://theta360.com/s/ksBeBbuD3lmJiNGik2hcAi1vk?view=embed&width=970px&height=375px")
 ```
 
+## Contact {#contact}
+
+__Conference email__  
+
+[HLSWFU2020@gmail.com](mailto:://HLSWFU2020@gmail.com)
+
+__Conference address__
+
+Hispanic Linguistics Symposium 2020  
+323 Greene Hall  
+Wake Forest University  
+Winston-Salem, NC 27109 
+
+__Organizing committee__
+
+- Tiffany Judy [judyte@wfu.edu](mailto://judyte@wfu.edu)
+- Luis González [gonzall@wfu.edu](mailto://gonzall@wfu.edu)
+- Irma Alarcón [alarcoi@wfu.edu](mailto://alarcoi@wfu.edu)
+- Diego Burgos [burgosda@wfu.edu](mailto://burgosda@wfu.edu)
+- Jerid Francom [francojc@wfu.edu](mailto://francojc@wfu.edu)
+- Claudia Valdez [valdezc@wfu.edu](mailto://valdezc@wfu.edu)
+- Cesar Gutiérrez [gutiermc@wfu.edu](mailto://gutiermc@wfu.edu)
+- Lauren Miller [millerle@wfu.edu](mailto://millerle@wfu.edu)
 
 ## Sponsors {#sponsors}
 
-<!-- work in progress...-->
+<!-- work in progress...
+
+Sponsors: 
+
+- NEH (logo)
+- WFU Humanities Institute (logo)
+- WFU Spanish and Italian Department (logo)
+- WFU Linguistics Minor (get)
+- WFU Latin American & Latino Studies (get)
+- WFU Provost's Office (get)
+
+-->
 <style>
 .img-float {
   float:left;
@@ -180,9 +214,28 @@ knitr::include_url(url = "https://theta360.com/s/ksBeBbuD3lmJiNGik2hcAi1vk?view=
 }
 </style>
 
+The Hispanic Linguistics Symposium 2020 has been sponsored by the Wake Forest University Humanities Institute with support made possible by a major grant from the National Endowment for the Humanities.
+
 <div class="img-float">
-  <img width="40%" src="images/neh.jpg">
   <img width="40%" src="images/wfu_hi.jpg">
+  <img width="40%" src="images/neh.jpg">
 </div>
 
 <div class="clear"></div>
+
+_Any views, findings, conclusions, or recommendations expressed in this conference, do not necessarily represent those of the National Endowment for the Humanities._
+
+This event has also received generous support from the following sources: 
+
+<!-- 
+<div class="img-float">
+  <img width="40%" src="images/wfu_spit.jpg">
+</div>
+
+<div class="clear"></div>
+-->
+
+- WFU Spanish and Italian Department
+- WFU Linguistics Minor
+- WFU Latin American & Latino Studies
+- WFU Provost's Office
