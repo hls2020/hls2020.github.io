@@ -36,7 +36,6 @@ iframe.news {
 
 <div class="clear"></div>
 
-
 <a href="https://twitter.com/intent/tweet?button_hashtag=hls2020&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-url="http://hls2020.wfu.edu" data-related="hls2020" data-show-count="false">Tweet #hls2020</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Keynote speakers {#speakers}
@@ -190,6 +189,7 @@ __Organizing committee__
 - Claudia Valdez [valdezc@wfu.edu](mailto://valdezc@wfu.edu)
 - Cesar Gutiérrez [gutiermc@wfu.edu](mailto://gutiermc@wfu.edu)
 - Lauren Miller [millerle@wfu.edu](mailto://millerle@wfu.edu)
+- Sara Fernández-Cuenca [fernans@wfu.edu](mailto://fernans@wfu.edu)
 
 ## Sponsors {#sponsors}
 
