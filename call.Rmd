@@ -15,7 +15,6 @@ __Meeting Description:__ Wake Forest University will host the Hispanic Linguisti
 __Submission Guidelines:__
 
 - Papers and posters may be delivered in English, Portuguese, or Spanish.
-- Authors may submit up to two abstracts, one individual and one joint.
 - Abstracts should be submitted in `.pdf` format and should not exceed one page (1-inch margins, 12-point Times New Roman font), with a second page reserved for examples, tables, and references.
 - Abstracts must clearly present a specific thesis statement and include a description of the topic, the approach, and conclusions. To preserve anonymity during the review process, authors should not include their names or otherwise reveal their identity anywhere in the abstract.
 - Abstracts must be submitted through EasyAbstracts (EasyAbs): _TBD_

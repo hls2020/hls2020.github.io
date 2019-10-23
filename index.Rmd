@@ -49,7 +49,7 @@ iframe.news {
       </a>
     </span>
     <h3 class="speakers-name">Dr. Kim Potowski</h3>
-    <h3 class="speakers-affiliation">University of Illinois at Urbana-Champaign</h3>
+    <h3 class="speakers-affiliation">University of Illinois at Chicago</h3>
     <h3 class="speech-title"> </h3>
   </li>
   
