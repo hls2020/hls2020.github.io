@@ -136,7 +136,7 @@ TBA
 
 ### Getting to Winston-Salem
 
-Winston-Salem is served primarily by the __Piedmont Triad International Airport (GSO)__ in Greensboro, NC. Taxis and rental cars are available, and express shuttle service is operated from the PTI Airport to Winston-Salem. For more information you can visit [visitwinstonsalem.com](https://visitwinstonsalem.com).
+Winston-Salem is served primarily by the __Piedmont Triad International Airport (GSO)__ in Greensboro, NC (30 minutes from downtown Winston-Salem). Taxis and rental cars are available, and express shuttle service is operated from the PTI Airport to Winston-Salem. For more information you can visit [visitwinstonsalem.com](https://visitwinstonsalem.com).
 
 Other regional airports include:
 
@@ -225,17 +225,19 @@ The Hispanic Linguistics Symposium 2020 has been sponsored by the Wake Forest Un
 
 _Any views, findings, conclusions, or recommendations expressed in this conference, do not necessarily represent those of the National Endowment for the Humanities._
 
-This event has also received generous support from the following sources: 
+This event has also received generous support from the following Wake Forest University organizations:
+
 
 <!-- 
 <div class="img-float">
-  <img width="40%" src="images/wfu_spit.jpg">
+  <img width="40%" src="images/wfu_logo.jpg">
 </div>
 
 <div class="clear"></div>
 -->
 
-- WFU Spanish and Italian Department
-- WFU Linguistics Minor
-- WFU Latin American & Latino Studies
-- WFU Provost's Office
+- College of Arts and Sciences
+- Office of the Provost
+- Spanish and Italian Department
+- Linguistics Minor
+- Latin American and Latino Studies
