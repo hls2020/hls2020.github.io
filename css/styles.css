@@ -101,3 +101,16 @@ img.photo {
   border-width: .1em;
   background-color: #E29FC1;
 }
+
+/* ---- Covid announcement ---- */
+
+#covid {
+  border-radius: 10px;
+  background-color: #fcf18f;
+  width: 100%;
+  border: 2px solid #fcdf07;
+  padding: 15px 15px 22px 15px;
+  margin-bottom: 1em;
+  text-align: center;
+}
+

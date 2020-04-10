@@ -11,6 +11,10 @@ library(tidyverse)
 Wake Forest University  
 Winston-Salem, NC</h3>
 
+<div id="covid">
+<h3> HLS 2020 is <a href="covid.html">postponed</a> due to the Covid-19 pandemic</h3>
+</div>
+
 ## News {#news}
 
 <!-- work in progress...-->
