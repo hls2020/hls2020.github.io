@@ -1,5 +1,5 @@
 ---
-title: "Hispanic Linguistics Symposium 2020"
+title: "Hispanic Linguistics Symposium 2021"
 ---
 
 ```{r setup, include=FALSE}
@@ -174,7 +174,6 @@ __Conference email__
 
 __Conference address__
 
-Hispanic Linguistics Symposium 2020  
 323 Greene Hall  
 Wake Forest University  
 Winston-Salem, NC 27109 
@@ -214,7 +213,7 @@ Sponsors:
 }
 </style>
 
-The Hispanic Linguistics Symposium 2020 has been sponsored by the Wake Forest University Humanities Institute with support made possible by a major grant from the National Endowment for the Humanities.
+The Hispanic Linguistics Symposium 2021 has been sponsored by the Wake Forest University Humanities Institute with support made possible by a major grant from the National Endowment for the Humanities.
 
 <div class="img-float">
   <img width="40%" src="images/wfu_hi.jpg">
