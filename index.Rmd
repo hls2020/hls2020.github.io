@@ -7,13 +7,9 @@ library(tidyverse)
 ```
 
 
-<h3>October 15th-17th  
+<h3>October 7th-9th, 2021  
 Wake Forest University  
 Winston-Salem, NC</h3>
-
-<div id="covid">
-<h3> HLS 2020 is <a href="covid.html">postponed</a> due to the Covid-19 pandemic</h3>
-</div>
 
 ## News {#news}
 
