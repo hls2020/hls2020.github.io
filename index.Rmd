@@ -170,7 +170,7 @@ knitr::include_url(url = "https://theta360.com/s/ksBeBbuD3lmJiNGik2hcAi1vk?view=
 
 __Conference email__  
 
-[HLSWFU2020@gmail.com](mailto:://HLSWFU2020@gmail.com)
+[hlswfu2021@gmail.com](mailto:hlswfu2021@gmail.com)
 
 __Conference address__
 
