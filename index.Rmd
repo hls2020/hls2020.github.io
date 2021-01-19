@@ -32,11 +32,11 @@ iframe.news {
 
 <img class="news" src="images/wake_downtown.jpg" />
 
-<a class="twitter-timeline news" data-width="50%" data-height="260" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/hls2020?ref_src=twsrc%5Etfw">Tweets by hls2020</a> <script async src="https://platform.twitter.com/widgets.js"></script>
+<a class="twitter-timeline news" data-width="50%" data-height="260" data-theme="light" data-link-color="#E81C4F" href="https://twitter.com/hlswfu2021?ref_src=twsrc%5Etfw">Tweets by hlswfu2021</a> <script async src="https://platform.twitter.com/widgets.js"></script>
 
 <div class="clear"></div>
 
-<a href="https://twitter.com/intent/tweet?button_hashtag=hls2020&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-url="http://hls2020.wfu.edu" data-related="hls2020" data-show-count="false">Tweet #hls2020</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<a href="https://twitter.com/intent/tweet?button_hashtag=hlswfu2021&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-url="http://hls2021.wfu.edu" data-related="hlswfu2021" data-show-count="false">Tweet #hlswfu2021</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 ## Keynote speakers {#speakers}
 
