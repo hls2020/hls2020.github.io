@@ -26,6 +26,19 @@ Online submission:
 - Please specify the title of the paper, area of research, author names, academic affiliations, and e-mail addresses in the form within the abstract submission system.
 - Please also specify whether you wish your submission to be considered for presentation as a paper, a poster, or for both categories.
 
+
+Workshops: 
+
+The HLS 2021 organizing committee invites proposals for workshops. In the past, HLS has hosted different career workshops, often oriented to junior faculty and graduate students, on a variety of topics (best practices of statistical analysis, getting hired in a teaching-intensive university, *etc*). We would like to continue this tradition in HLS 2021 by inviting proposals for 60 minute workshops. Special consideration will be given to proposals focusing on primary and secondary bilingual education.
+
+Workshop proposals should:
+
+1. Be applied in nature, i.e., offer practical skills to attendees.
+2. Be structured as follows: (a) write “WORKSHOP” at the top of the document followed by the suggested title, (b) include a brief overview of the topic or goal of the session (what practical skills will attendees gain?) (c) specify the intended audience (junior faculty, phoneticians, etc), (d) and include a workshop agenda (in the form of a list) structuring the content of the 60 minute session.
+3. Be submitted in pdf. format and should not exceed two pages.
+4. Not include the name of the organizers, presenters or affiliations.
+5. Be submitted through EasyAbs by clicking the option “Poster”.
+
 Notification: 
 
 - Notifications of acceptance / rejection will be sent in June. 
