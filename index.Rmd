@@ -11,6 +11,12 @@ library(tidyverse)
 Wake Forest University  
 Winston-Salem, NC</h3>
 
+<div id="covid">
+**Wake Forest University’s installment of HLS will take place virtually.** 
+
+[Please read the statement from the Organizing Committee on this decision.](virtual.html)
+</div>
+
 ## News {#news}
 
 <!-- work in progress...-->
@@ -131,40 +137,6 @@ TBA
 ### October 9
 
 TBA
-
-## Logistics {#logistics}
-
-### Getting to Winston-Salem
-
-Winston-Salem is served primarily by the __Piedmont Triad International Airport (GSO)__ in Greensboro, NC (30 minutes from downtown Winston-Salem). Taxis and rental cars are available, and express shuttle service is operated from the PTI Airport to Winston-Salem. For more information you can visit [visitwinstonsalem.com](https://visitwinstonsalem.com).
-
-Other regional airports include:
-
-__Charlotte Douglas International Airport (CLT)__ is about 90 minutes away. Information on transportation to Winston-Salem from CLT can be found at the airport website or you may want to check out a company called [Official Shuttle](http://www.booktheride.com) with transfers to Winston-Salem.
-
-__Raleigh/Durham International Airport (RDU)__ is about a 2-hour drive away. Information on transportation to Winston-Salem from RDU can be found at the airport website.
-
-NOTE: _Smith Reynolds Airport (INT)_ in Winston-Salem is available primarily to charter and private aircraft.
-
-### Conference location
-
-The conference will be held downtown Winston-Salem, NC at the new [Wake Downtown](https://wakedowntown.wfu.edu) campus. Please use the map below to prepare local transportion, accommodation, restaurant, and entertainment plans. 
-
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3223.7495655685784!2d-80.24215808490376!3d36.09959238009886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8853ae5daadcf6b3%3A0x2309a7ebbb1e625f!2sWake+Downtown!5e0!3m2!1sen!2sus!4v1564887715132!5m2!1sen!2sus" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-
-### 360° tours
-
-Exterior of Wake Downtown located in [Winston-Salem’s Innovation Quarter](https://www.innovationquarter.com).
-
-```{r wake-downtown-outside-view, echo=FALSE}
-knitr::include_url(url = "https://theta360.com/s/nzuanEB1RNdKdHjea8bA2kmjg?view=embed&width=970px&height=375px")
-```
-
-Wake Downtown Auditorium
-
-```{r wake-downtown-auditorium-view, echo=FALSE}
-knitr::include_url(url = "https://theta360.com/s/ksBeBbuD3lmJiNGik2hcAi1vk?view=embed&width=970px&height=375px")
-```
 
 ## Contact {#contact}
 
