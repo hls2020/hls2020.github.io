@@ -13,9 +13,6 @@ navbar:
     - text: "Program"
       # icon: fa-calendar
       href: index.html#program
-    - text: "Logistics"
-      # icon: fa-suitcase
-      href: index.html#logistics
     - text: "Contact"
       href: index.html#contact
     - text: "Sponsors" 
