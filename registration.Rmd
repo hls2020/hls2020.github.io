@@ -4,8 +4,7 @@ title: "Registration"
 
 ## The Basics:
 
-All presenters and attendees must [register via this GoogleForm](https://docs.google.com/forms/d/e/1FAIpQLSdcxsiOidNOmvE8mrKuGmKglPafl1Fi0GhIBWmp7hYYVFP8mA/viewform) by AUGUST 1ST, 2021 (11:59PM EST/UTC-4); HLS 2021 is free due to generous WFU funding and virtual mode.
-
+All presenters and attendees must [register via this GoogleForm](https://docs.google.com/forms/d/e/1FAIpQLSdcxsiOidNOmvE8mrKuGmKglPafl1Fi0GhIBWmp7hYYVFP8mA/viewform) by AUGUST 1ST, 2021 (11:59PM EST/UTC-4); HLS 2021 is free due to generous WFU funding and virtual modality.
 
 ## The Specifics:  
 
@@ -15,7 +14,7 @@ As with face-to-face conferences, The Organizing Committee relies on accurate re
 
 Presenters (including short presentations, posters and workshops) forfeit their acceptance to present at HLS 2021 if they fail to register via this form by AUGUST 1ST, 2021 (11:59PM EST/UTC-4). In the case of collaborative presentations, all presenters who will be in attendance for the presentation must register. Based on registration, adjustments may be made to the program; therefore, no registration extensions are possible. HLS 2021 attendees (presenters and audience members alike) only gain access to the program, Zoom links, associated information and updates via completion of this registration form. Therefore, if colleagues or students are interested in attending any component of HLS, they too must register via this form. 
 
-Biographical questions on the registration form are necessary for our funding source reports. 
+The demographic questions below will be used in our funding source reports; 'prefer not to answer' may be written in.
 
 Please direct inquiries to [hlswfu2021@gmail.com](mailto:hlswfu2021@gmail.com)
 
