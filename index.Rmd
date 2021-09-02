@@ -18,7 +18,9 @@ Winston-Salem, NC</h3>
 
 **Register Now!**
 
-All presenters and attendees must [register via this GoogleForm](https://docs.google.com/forms/d/e/1FAIpQLSdcxsiOidNOmvE8mrKuGmKglPafl1Fi0GhIBWmp7hYYVFP8mA/viewform) by AUGUST 1ST, 2021 (11:59PM EST/UTC-4); HLS 2021 is free due to generous WFU funding and virtual modality. For more information, please consult the [Registration page](registration.html). 
+<!-- All presenters and attendees must [register via this GoogleForm](https://docs.google.com/forms/d/e/1FAIpQLSdcxsiOidNOmvE8mrKuGmKglPafl1Fi0GhIBWmp7hYYVFP8mA/viewform) by AUGUST 1ST, 2021 (11:59PM EST/UTC-4); HLS 2021 is free due to generous WFU funding and virtual modality. For more information, please consult the [Registration page](registration.html).  -->
+
+All attendees must [register via this Google Form](https://forms.gle/vKVcxQgVAkQgP3JV8) by SEPTEMBER 19TH, 2021 (11:59PM EST/UTC-4); HLS 2021 is free due to generous WFU funding and virtual modality. For more information, please consult the [Registration page](registration.html).
 
 </div>
 
