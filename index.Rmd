@@ -6,13 +6,12 @@ title: "Hispanic Linguistics Symposium 2021"
 library(tidyverse)
 ```
 
-
-<h3>October 7th-9th, 2021  
-Wake Forest University  
+<h3>October 7th-9th, 2021
+Wake Forest University
 Winston-Salem, NC</h3>
 
 <div id="covid">
-**Wake Forest University’s installment of HLS will take place virtually.** 
+**Wake Forest University’s installment of HLS will take place virtually.**
 
 [Please read the statement from the Organizing Committee on this decision.](virtual.html)
 
@@ -29,12 +28,12 @@ All attendees must [register via this Google Form](https://forms.gle/vKVcxQgVAkQ
 <!-- work in progress...-->
 <style>
 img.news {
-  width:50%;    
+  width:50%;
   float:left;
 }
 
 iframe.news {
-  width:50%;    
+  width:50%;
   float:right;
 }
 
@@ -65,7 +64,7 @@ iframe.news {
     <h3 class="speakers-affiliation">University of Illinois at Chicago</h3>
     <h3 class="speech-title"> </h3>
   </li>
-  
+
   <li class="speakers-item">
     <span class="speaker-photo">
       <a href="http://www.concepcioncompany.com" target="_blank">
@@ -76,7 +75,7 @@ iframe.news {
     <h3 class="speakers-affiliation">Universidad Nacional Autónoma de México</h3>
     <h3 class="speech-title"> </h3>
   </li>
-  
+
   <li class="speakers-item">
     <span class="speaker-photo">
       <a href="https://www.colorado.edu/spanish/esther-brown" target="_blank">
@@ -87,25 +86,25 @@ iframe.news {
     <h3 class="speakers-affiliation">University of Colorado Boulder</h3>
     <h3 class="speech-title"> </h3>
   </li>
-  
+
 </ul>
 
 
-## Program 
+## Program
 
 [View the program](https://docs.google.com/document/d/1DOhTzbvQ8IQKoQLoIsj7wryoO5R-I6F9/edit?usp=sharing&ouid=117812468659304479715&rtpof=true&sd=true) (Registered participants and attendees only)
 
 ## Contact {#contact}
 
-__Conference email__  
+__Conference email__
 
 [hlswfu2021@gmail.com](mailto:hlswfu2021@gmail.com)
 
 __Conference address__
 
-323 Greene Hall  
-Wake Forest University  
-Winston-Salem, NC 27109 
+323 Greene Hall
+Wake Forest University
+Winston-Salem, NC 27109
 
 __Organizing committee__
 
@@ -123,7 +122,7 @@ __Organizing committee__
 
 <!-- work in progress...
 
-Sponsors: 
+Sponsors:
 
 - NEH (logo)
 - WFU Humanities Institute (logo)
@@ -156,7 +155,7 @@ _Any views, findings, conclusions, or recommendations expressed in this conferen
 This event has also received generous support from the following Wake Forest University organizations:
 
 
-<!-- 
+<!--
 <div class="img-float">
   <img width="40%" src="images/wfu_logo.jpg">
 </div>
