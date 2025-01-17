@@ -13,8 +13,8 @@
 
 <title>Call for papers</title>
 
-<script src="site_libs/header-attrs-2.10/header-attrs.js"></script>
-<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+<script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
 <link href="site_libs/bootstrap-3.3.5/css/cosmo.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
@@ -32,8 +32,8 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/all.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-6.5.2/css/v4-shims.min.css" rel="stylesheet" />
 <script type="text/javascript" src="js/smooth-scroll.js"></script>
 
 <style type="text/css">
@@ -55,6 +55,7 @@ if (window.hljs) {
   }
 }
 </script>
+
 
 
 
@@ -84,6 +85,9 @@ button.code-folding-btn:focus {
 }
 summary {
   display: list-item;
+}
+details > summary > p:only-child {
+  display: inline;
 }
 pre code {
   padding: 0;
@@ -141,11 +145,15 @@ $(document).ready(function () {
     href = "index.html";
   var menuAnchor = $('a[href="' + href + '"]');
 
-  // mark it active
-  menuAnchor.tab('show');
-
-  // if it's got a parent navbar menu mark it active as well
-  menuAnchor.closest('li.dropdown').addClass('active');
+  // mark the anchor link active (and if it's in a dropdown, also mark that active)
+  var dropdown = menuAnchor.closest('li.dropdown');
+  if (window.bootstrap) { // Bootstrap 4+
+    menuAnchor.addClass('active');
+    dropdown.find('> .dropdown-toggle').addClass('active');
+  } else { // Bootstrap 3
+    menuAnchor.parent().addClass('active');
+    dropdown.addClass('active');
+  }
 
   // Navbar adjustments
   var navHeight = $(".navbar").first().height() + 15;
@@ -174,8 +182,8 @@ $(document).ready(function () {
   border-radius: 4px;
 }
 
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
+.tabset-dropdown > .nav-tabs > li.active:before, .tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "\e259";
   font-family: 'Glyphicons Halflings';
   display: inline-block;
   padding: 10px;
@@ -183,16 +191,9 @@ $(document).ready(function () {
 }
 
 .tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
+  content: "\e258";
   font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
+  border: none;
 }
 
 .tabset-dropdown > .nav-tabs > li.active {
@@ -236,7 +237,7 @@ $(document).ready(function () {
 <div class="navbar navbar-default  navbar-fixed-top" role="navigation">
   <div class="container">
     <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-bs-toggle="collapse" data-target="#navbar" data-bs-target="#navbar">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -300,30 +301,64 @@ $(document).ready(function () {
 Hispanic Linguistics Symposium 2021
 </h3>
 <p><strong>Conference Dates:</strong> October 7-9, 2021</p>
-<p><strong>Location:</strong> Fully virtual conference <a href="virtual.html">Please read the statement from the Organizing Committee on this decision.</a></p>
+<p><strong>Location:</strong> Fully virtual conference <a
+href="virtual.html">Please read the statement from the Organizing
+Committee on this decision.</a></p>
 <p><strong>Abstract Submission Deadline:</strong> April 30, 2021</p>
-<p><strong>Meeting Description:</strong> Wake Forest University will host the Hispanic Linguistics Symposium October 7-9, 2021. The Hispanic Linguistics Symposium is an annual conference with a focus on theoretical and applied linguistics in Spanish and Portuguese. Abstracts for paper presentations or posters are invited on any area of Hispanic linguistics, and within any theoretical or quantitative framework.</p>
+<p><strong>Meeting Description:</strong> Wake Forest University will
+host the Hispanic Linguistics Symposium October 7-9, 2021. The Hispanic
+Linguistics Symposium is an annual conference with a focus on
+theoretical and applied linguistics in Spanish and Portuguese. Abstracts
+for paper presentations or posters are invited on any area of Hispanic
+linguistics, and within any theoretical or quantitative framework.</p>
 <p><strong>Submission Guidelines:</strong></p>
 <p>Format:</p>
 <ul>
-<li>Papers and posters may be delivered in English, Portuguese, or Spanish.</li>
-<li>Abstracts should be submitted in <code>.pdf</code> format and should not exceed one page (1-inch margins, 12-point Times New Roman font), with a second page reserved for examples, tables, and references.</li>
-<li>Abstracts must clearly present a specific thesis statement and include a description of the topic, the approach, and conclusions. To preserve anonymity during the review process, authors should not include their names or otherwise reveal their identity anywhere in the abstract.</li>
+<li>Papers and posters may be delivered in English, Portuguese, or
+Spanish.</li>
+<li>Abstracts should be submitted in <code>.pdf</code> format and should
+not exceed one page (1-inch margins, 12-point Times New Roman font),
+with a second page reserved for examples, tables, and references.</li>
+<li>Abstracts must clearly present a specific thesis statement and
+include a description of the topic, the approach, and conclusions. To
+preserve anonymity during the review process, authors should not include
+their names or otherwise reveal their identity anywhere in the
+abstract.</li>
 </ul>
 <p>Online submission:</p>
 <ul>
-<li>Abstracts must be submitted through <a href="https://linguistlist.org/confservices/customhome.cfm?Emeetingid=5702JA445876405840A050441">EasyAbs</a> and can be accessed between January 15 - April 30, 2021.</li>
-<li>Please specify the title of the paper, area of research, author names, academic affiliations, and e-mail addresses in the form within the abstract submission system.</li>
-<li>Please also specify whether you wish your submission to be considered for presentation as a paper, a poster, or for both categories.</li>
+<li>Abstracts must be submitted through <a
+href="https://linguistlist.org/confservices/customhome.cfm?Emeetingid=5702JA445876405840A050441">EasyAbs</a>
+and can be accessed between January 15 - April 30, 2021.</li>
+<li>Please specify the title of the paper, area of research, author
+names, academic affiliations, and e-mail addresses in the form within
+the abstract submission system.</li>
+<li>Please also specify whether you wish your submission to be
+considered for presentation as a paper, a poster, or for both
+categories.</li>
 </ul>
 <p>Workshops:</p>
-<p>The HLS 2021 organizing committee invites proposals for workshops. In the past, HLS has hosted different career workshops, often oriented to junior faculty and graduate students, on a variety of topics (best practices of statistical analysis, getting hired in a teaching-intensive university, <em>etc</em>). We would like to continue this tradition in HLS 2021 by inviting proposals for 60 minute workshops. Special consideration will be given to proposals focusing on primary and secondary bilingual education.</p>
+<p>The HLS 2021 organizing committee invites proposals for workshops. In
+the past, HLS has hosted different career workshops, often oriented to
+junior faculty and graduate students, on a variety of topics (best
+practices of statistical analysis, getting hired in a teaching-intensive
+university, <em>etc</em>). We would like to continue this tradition in
+HLS 2021 by inviting proposals for 60 minute workshops. Special
+consideration will be given to proposals focusing on primary and
+secondary bilingual education.</p>
 <p>Workshop proposals should:</p>
 <ol style="list-style-type: decimal">
-<li>Be applied in nature, i.e., offer practical skills to attendees.</li>
-<li>Be structured as follows: (a) write “WORKSHOP” at the top of the document followed by the suggested title, (b) include a brief overview of the topic or goal of the session (what practical skills will attendees gain?) (c) specify the intended audience (junior faculty, phoneticians, etc), (d) and include a workshop agenda (in the form of a list) structuring the content of the 60 minute session.</li>
+<li>Be applied in nature, i.e., offer practical skills to
+attendees.</li>
+<li>Be structured as follows: (a) write “WORKSHOP” at the top of the
+document followed by the suggested title, (b) include a brief overview
+of the topic or goal of the session (what practical skills will
+attendees gain?) (c) specify the intended audience (junior faculty,
+phoneticians, etc), (d) and include a workshop agenda (in the form of a
+list) structuring the content of the 60 minute session.</li>
 <li>Be submitted in pdf. format and should not exceed two pages.</li>
-<li>Not include the name of the organizers, presenters or affiliations.</li>
+<li>Not include the name of the organizers, presenters or
+affiliations.</li>
 <li>Be submitted through EasyAbs by clicking the option “Poster”.</li>
 </ol>
 <p>Notification:</p>
